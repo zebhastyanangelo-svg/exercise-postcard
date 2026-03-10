@@ -3,13 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body {
 	font-family: "Poppins", sans-serif;
 	background-color: #f5f5f5;
 	padding: 40px 20px;
 }
-
 .postcard {
 	max-width: 800px;
 	margin: 0 auto;
@@ -18,7 +16,6 @@ body {
 	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
 }
-
 .postcard-header {
 	display: flex;
 	align-items: center;
@@ -26,7 +23,6 @@ body {
 	padding: 20px;
 	color: white;
 }
-
 .postcard-header img {
 	width: 50px;
 	height: 50px;
@@ -34,43 +30,36 @@ body {
 	background-color: white;
 	padding: 5px;
 }
-
 .postcard-header h1 {
 	flex-grow: 1;
 	margin: 0;
 	font-weight: 600;
 	font-size: 28px;
 }
-
 .postcard-body {
 	display: flex;
 	min-height: 300px;
 }
-
 /* AGRUPADOS - comparten padding */
 .body-left,
 .body-right {
 	flex: 1;
 	padding: 30px;
 }
-
 .body-left {
 	border-right: 2px solid #f0f0f0;
 }
-
 .body-left p:first-child {
 	margin-top: 0;
 	font-weight: 600;
-	color: #667eea;
+	color: #080808;
 }
-
 .body-left p {
 	margin-bottom: 15px;
 	line-height: 1.6;
-	color: #333;
+	color: #000000;
 }
 
-/* AGRUPADOS - comparten background */
 .body-right,
 .postcard-footer {
 	background-color: #fafafa;
